@@ -1,0 +1,14 @@
+.header-nav-class {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  max-height: 65px;
+  height: 65px;
+  min-height: 65px;
+  background-color: #1b1e25;
+  color: white;
+  border-bottom: #33363d 1px solid;
+}

@@ -1,0 +1,55 @@
+.status-geral-wrapper {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.status-geral-header {
+  max-width: 250px;
+  margin-bottom: 1.5rem;
+}
+
+.status-geral-grid {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.status-card {
+  padding: 1.5rem;
+  flex: 1 1 250px;
+  max-width: 100vw;
+  border-radius: 8px;
+  background: #272a31;
+  border: 1px solid #33363d;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-label {
+  font-size: 0.9rem;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.card-value {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.status-card.receita .card-value {
+  color: #28a745;
+}
+.status-card.despesa .card-value {
+  color: #dc3545;
+}
+.status-card.saldo .positivo {
+  color: #28a745;
+}
+.status-card.saldo .negativo {
+  color: #dc3545;
+}

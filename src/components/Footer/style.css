@@ -1,0 +1,14 @@
+.footer-nav-class {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  max-height: 65px;
+  height: 65px;
+  min-height: 65px;
+  background-color: #1B1E25;
+  color: white;
+  border-top: #33363D 1px solid;
+}

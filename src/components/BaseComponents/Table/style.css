@@ -1,0 +1,56 @@
+.table-container {
+  background-color: #1b1e25;
+  border-radius: 8px;
+  padding: 16px;
+  overflow: hidden;
+}
+
+.table-component thead {
+  position: sticky;
+  top: 0;
+}
+
+.table-component {
+  width: 100%;
+  border-collapse: collapse;
+  color: #e0e0e0;
+}
+
+.table-component th {
+  background-color: #272a31;
+  color: #ffffff;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 0.5px;
+  padding: 14px 12px;
+  text-align: left;
+  border-bottom: 2px solid #33363d;
+}
+
+.table-component td {
+  padding: 12px;
+  font-size: 0.95rem;
+  border-bottom: 1px solid #33363d;
+}
+
+.table-component tbody tr:nth-child(even) {
+  background-color: #1f2229;
+}
+
+.table-component tr:first-child th:first-child {
+  border-top-left-radius: 4px;
+}
+.table-component tr:first-child th:last-child {
+  border-top-right-radius: 4px;
+}
+
+.text-receita {
+  color: #4ade80;
+  font-weight: bold;
+}
+
+.text-despesa {
+  color: #f87171;
+  font-weight: bold;
+}

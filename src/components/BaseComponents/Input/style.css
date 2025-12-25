@@ -1,0 +1,16 @@
+.form-group {
+  width: 100%;
+}
+
+.custom-input{
+  width: 100%;
+  min-height: 36px;
+  background-color: #33363d;
+  color: white;
+  padding-left: 5px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  outline: none;
+  border: solid 1px #33363d;
+  border-radius: 6px;
+}
