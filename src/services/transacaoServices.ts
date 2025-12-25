@@ -4,7 +4,7 @@ import type {
 } from "../types/baseTypes/Transacao";
 import { AlertService, handleApiError } from "../util/alertUtils";
 
-const apiUrl = import.meta.env.API_URL;
+const apiUrl = import.meta.env.VITE_API_URL;
 
 // Busca todas as transações para alimentar o histórico e os relatórios de totais.
 export async function getTransacoes(): Promise<Transacao[]> {

@@ -4,7 +4,7 @@ import type {
 } from "../types/baseTypes/Categoria";
 import { AlertService, handleApiError } from "../util/alertUtils";
 
-const apiUrl = import.meta.env.API_URL;
+const apiUrl = import.meta.env.VITE_API_URL;
 
 
 export async function getCategorias(): Promise<Categoria[]> {
