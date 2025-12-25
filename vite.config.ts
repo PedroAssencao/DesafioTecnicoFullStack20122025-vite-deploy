@@ -7,6 +7,7 @@ export default defineConfig({
   server: {
     port: 3000,
   },
+  base: process.env.VITE_BASE_PATH || "/DesafioTecnicoFullStack20122025-vite-deploy",
   define: {
     "process.env.API_URL": JSON.stringify(process.env.API_URL),
   },
